@@ -1,4 +1,7 @@
 {
-    "token": "STR_YOUR_DISCORD_TOKEN_HERE",
-    "port": 25565
+    "hotkey": "!",
+    "getIp": true,
+    "getStatus": true,
+    "port": 25565,
+    "token": "STR_YOUR_DISCORD_TOKEN_HERE"
 }
