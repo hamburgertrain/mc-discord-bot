@@ -1,0 +1,12 @@
+{
+    "name": "mc-discord-bot",
+    "version": "1.0.0",
+    "description": "Minecraft Discord Bot - Reports Server Stats",
+    "main": "bot.js",
+    "author": "Tyler Bialoblocki",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "node-fetch": "^2.6.0",
+        "ws": ">=3.3.1"
+    }
+}
