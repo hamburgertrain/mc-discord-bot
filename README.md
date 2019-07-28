@@ -1,16 +1,12 @@
 # mc-discord-bot
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or
-(at your option) any later version.
+## About:
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+This node.js program is for Minecraft server status integration into a Discord server. With this tool you can:
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+1. Retrieve the public IP of wherever the bot is hosted.
+
+2. Use that public IP to query a minecraft server on the same private network, and display its status in a discord text channel.
 
 ## Setup:
 
@@ -34,3 +30,17 @@ Included is a batch script (start.bat) for those on Windows who would like to ge
 `!server-ip` - Get current public IP address.
 
 `!server-status` - Get Minecraft server status, including IP address, port, number of players online, minecraft version and latency.
+
+## License
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
