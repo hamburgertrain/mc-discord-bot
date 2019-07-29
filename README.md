@@ -34,33 +34,33 @@ Included is a batch script (start.bat) for those on Windows who would like to ge
 ## Config
 
 `hotkey: String`\
-`Default: "!"`\
+`Default: "!"`
 
 The hotkey to mark commands that the bot should respond to.
 
 `getIp: Boolean`\
-`Default: true`\
+`Default: true`
 
 Whether the 'server-ip' command is enabled.
 
 `getStatus: Boolean`\
-`Default: true`\
+`Default: true`
 
 Whether the 'server-status' command is enabled.
 
 `staticIp: Boolean or String`\
-`Default: false`\
+`Default: false`
 
 Whether the bot should use a static IP for the Minecraft server.\
 Note: To enable, this should be changed from false to your Minecraft server IP as a string.
 
 `port: Integer`\
-`Default: 25578`\
+`Default: 25578`
 
 The port which the Minecraft server is using for connections.
 
 `token: String`\
-`Default: "None"`\
+`Default: "None"`
 
 Your Discord bot token.
 
