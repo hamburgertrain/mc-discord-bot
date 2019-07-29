@@ -12,8 +12,8 @@ This node.js program is for Minecraft server status integration into a Discord s
 
 1. Install Node.JS and Node Package Manager
 
-2. Clone this repo to a machine on the same network as the Minecraft server
-(optionally, you can install the bot anywhere by specifying a static IP for minestat to query)
+2. Clone this repo to a machine on the same network as the Minecraft server.\
+(You can install the bot anywhere by specifying a static IP for minestat to query)
 
 3. Specify your Discord bot API key and Minecraft server port in config.json
 
@@ -35,27 +35,33 @@ Included is a batch script (start.bat) for those on Windows who would like to ge
 
 `hotkey: String`\
 `Default: "!"`\
+
 The hotkey to mark commands that the bot should respond to.
 
 `getIp: Boolean`\
 `Default: true`\
+
 Whether the 'server-ip' command is enabled.
 
 `getStatus: Boolean`\
 `Default: true`\
+
 Whether the 'server-status' command is enabled.
 
 `staticIp: Boolean or String`\
 `Default: false`\
+
 Whether the bot should use a static IP for the Minecraft server.\
 Note: To enable, this should be changed from false to your Minecraft server IP as a string.
 
 `port: Integer`\
 `Default: 25578`\
+
 The port which the Minecraft server is using for connections.
 
 `token: String`\
 `Default: "None"`\
+
 Your Discord bot token.
 
 ## License
