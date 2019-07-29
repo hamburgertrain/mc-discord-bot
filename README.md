@@ -27,9 +27,13 @@ Included is a batch script (start.bat) for those on Windows who would like to ge
 
 ## Commands
 
-`!server-ip` - Get current public IP address.
+`!server-ip`
 
-`!server-status` - Get Minecraft server status, including IP address, port, number of players online, minecraft version and latency.
+Get current public IP address.
+
+`!server-status`
+
+Get Minecraft server status, including IP address, port, number of players online, minecraft version and latency.
 
 ## Config
 
