@@ -2,6 +2,7 @@
     "hotkey": "!",
     "getIp": true,
     "getStatus": true,
+    "staticIp": false,
     "port": 25565,
-    "token": "STR_YOUR_DISCORD_TOKEN_HERE"
+    "token": "YOUR_DISCORD_TOKEN_HERE"
 }

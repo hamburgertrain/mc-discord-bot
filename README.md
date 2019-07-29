@@ -31,6 +31,33 @@ Included is a batch script (start.bat) for those on Windows who would like to ge
 
 `!server-status` - Get Minecraft server status, including IP address, port, number of players online, minecraft version and latency.
 
+## Config
+
+`hotkey: String`\
+`Default: "!"`\
+The hotkey to mark commands that the bot should respond to.
+
+`getIp: Boolean`\
+`Default: true`\
+Whether the 'server-ip' command is enabled.
+
+`getStatus: Boolean`\
+`Default: true`\
+Whether the 'server-status' command is enabled.
+
+`staticIp: Boolean or String`\
+`Default: false`\
+Whether the bot should use a static IP for the Minecraft server.\
+Note: To enable, this should be changed from false to your Minecraft server IP as a string.
+
+`port: Integer`\
+`Default: 25578`\
+The port which the Minecraft server is using for connections.
+
+`token: String`\
+`Default: "None"`\
+Your Discord bot token.
+
 ## License
 
 This program is free software; you can redistribute it and/or modify

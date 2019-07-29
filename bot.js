@@ -37,9 +37,13 @@ const bot = new Discord.Client({
 const url = 'https://api.ipify.org?format=json';
 const makeRequest = async url => {
     try {
-        var response = await fetch(url);
-        var json = await response.json();
-        return json;
+        if (!config.staticIp) {
+            var response = await fetch(url);
+            var json = await response.json();
+            return json;
+        } else {
+            return config.staticIp;
+        }
     } catch (error) {
         console.error('Request errored: ', error);
     }
