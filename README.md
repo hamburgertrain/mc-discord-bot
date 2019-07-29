@@ -2,11 +2,13 @@
 
 ## About
 
-This node.js program is for Minecraft server status integration into a Discord server. With this tool you can:
+This node.js program is for Minecraft server status integration into a Discord server. 
+
+With this tool you can:
 
 1. Retrieve the public IP of wherever the bot is hosted.
 
-2. Use that public IP to query a minecraft server on the same private network, and display its status in a discord text channel.
+2. Use that public IP to query a Minecraft server on the same private network, and display its status in a discord text channel.
 
 ## Setup
 
@@ -23,7 +25,8 @@ This node.js program is for Minecraft server status integration into a Discord s
 
 5. You should be up and running!
 
-Included is a batch script (start.bat) for those on Windows who would like to get autostart on boot working. Create a shortcut to the batch script and place it in your startup directory and you should be good to go.
+Included is a batch script (start.bat) for those on Windows who would like to get autostart on boot working.\
+Create a shortcut to the batch script and place it in your startup directory and you should be good to go.
 
 ## Commands
 
@@ -33,7 +36,7 @@ Get current public IP address.
 
 `!server-status`
 
-Get Minecraft server status, including IP address, port, number of players online, minecraft version and latency.
+Get Minecraft server status, including IP address, port, number of players online, Minecraft version and latency.
 
 ## Config
 
