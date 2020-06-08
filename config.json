@@ -4,5 +4,5 @@
     "getStatus": true,
     "staticIp": false,
     "port": 25565,
-    "token": "YOUR_DISCORD_TOKEN_HERE"
+    "token": "YOUR_DISCORD_BOT_TOKEN"
 }
