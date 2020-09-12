@@ -6,7 +6,7 @@
     "author": "Tyler Bialoblocki",
     "dependencies": {
         "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-        "node-fetch": "^2.6.0",
+        "node-fetch": "^2.6.1",
         "ws": ">=3.3.1"
     }
 }
